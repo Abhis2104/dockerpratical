@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: html-hello
+    container_name: my-html-container
+    ports:
+      - "8080:80"
